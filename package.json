@@ -1,0 +1,16 @@
+{
+	"name": "@kutsan/config",
+	"version": "0.0.0",
+	"description": "Sharable configurations files for tools that I use.",
+	"license": "GPL-3.0",
+	"repository": "github:kutsan/config",
+	"keywords": ["eslint", "eslintconfig", "prettier", "stylelint", "stylelint-config"],
+	"author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
+	"main": "",
+	"scripts": {
+		"start": "",
+		"test": ""
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}
