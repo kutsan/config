@@ -25,3 +25,7 @@ module.exports = Object.assign(require('@kutsan/config/prettier'), {
 	semi: true
 })
 ```
+
+## License
+
+GPL-3.0
