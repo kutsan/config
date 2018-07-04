@@ -4,6 +4,10 @@
 
 ## Usage
 
+```sh
+npm install @kutsan/config --save-dev
+```
+
 ### [prettier](https://github.com/prettier/prettier)
 
 Use as is in your `.prettierrc.js`,
