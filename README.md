@@ -18,14 +18,15 @@ Use as is in your `.prettierrc.js`,
 module.exports = require('@kutsan/config/prettier')
 ```
 
-or override rules with `Object.assign()`, since `prettier` [doesn't support `extends` mechanic](https://github.com/prettier/prettier/issues/3146) at the present time.
+or override rules with spread operator, since [`prettier` doesn't support `extends` mechanic](https://github.com/prettier/prettier/issues/3146) at the present time.
 
 ```javascript
-module.exports = Object.assign(require('@kutsan/config/prettier'), {
+module.exports = {
+	...require('@kutsan/config/prettier')
 	tabWidth: 2,
 	useTabs: false,
 	semi: true
-})
+}
 ```
 
 ## License
