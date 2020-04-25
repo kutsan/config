@@ -2,21 +2,18 @@
 	"name": "@kutsan/config",
 	"version": "0.2.0",
 	"description": "Sharable configurations files for tools that I use.",
-	"license": "GPL-3.0",
 	"repository": "github:kutsan/config",
-	"keywords": [
-		"eslint",
-		"eslintconfig",
-		"prettier",
-		"stylelint",
-		"stylelint-config"
-	],
+	"license": "GPL-3.0",
 	"author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
 	"main": "",
 	"scripts": {
 		"start": "",
 		"test": ""
 	},
-	"dependencies": {},
+	"dependencies": {
+		"stylelint-config-standard": "~20.0.0",
+		"stylelint-order": "~4.0.0",
+		"stylelint-order-config-yandex": "~0.1.2"
+	},
 	"devDependencies": {}
 }
