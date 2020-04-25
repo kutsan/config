@@ -29,6 +29,14 @@ module.exports = {
 }
 ```
 
+### [stylelint](https://github.com/stylelint/stylelint)
+
+Use as is in your `stylelint.config.js`,
+
+```javascript
+module.exports = require('@kutsan/config/stylelint')
+```
+
 ## License
 
 GPL-3.0
