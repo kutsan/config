@@ -1,26 +1,26 @@
 {
-	"name": "@kutsan/config",
-	"version": "0.6.0",
-	"description": "Sharable configurations files for tools that I use.",
-	"keywords": [
-		"eslint",
-		"eslint-config",
-		"prettier",
-		"prettier-config",
-		"stylelint",
-		"stylelint-config"
-	],
-	"repository": "github:kutsan/config",
-	"license": "GPL-3.0",
-	"author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
-	"scripts": {
-		"start": "",
-		"test": ""
-	},
-	"dependencies": {
-		"stylelint-config-standard": "~20.0.0",
-		"stylelint-order": "~4.0.0",
-		"stylelint-order-config-yandex": "~0.1.2"
-	},
-	"devDependencies": {}
+  "name": "@kutsan/config",
+  "version": "0.6.0",
+  "description": "Sharable configurations files for tools that I use.",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "prettier-config",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "repository": "github:kutsan/config",
+  "license": "GPL-3.0",
+  "author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
+  "scripts": {
+    "start": "",
+    "test": ""
+  },
+  "dependencies": {
+    "stylelint-config-standard": "~20.0.0",
+    "stylelint-order": "~4.0.0",
+    "stylelint-order-config-yandex": "~0.1.2"
+  },
+  "devDependencies": {}
 }
