@@ -20,10 +20,8 @@ or override rules with spread operator, since [`prettier` doesn't support `exten
 
 ```javascript
 module.exports = {
-	...require('@kutsan/config/prettier')
-	tabWidth: 2,
-	useTabs: false,
-	semi: true
+  ...require('@kutsan/config/prettier'),
+  semi: true
 }
 ```
 
