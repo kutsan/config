@@ -4,7 +4,7 @@
   "description": "Sharable configurations files for tools that I use.",
   "keywords": [
     "eslint",
-    "eslint-config",
+    "eslintconfig",
     "prettier",
     "prettier-config",
     "stylelint",
