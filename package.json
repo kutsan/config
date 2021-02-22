@@ -14,9 +14,9 @@
   "license": "GPL-3.0",
   "author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
   "files": [
-    "./prettier",
-    "./stylelint",
-    "./eslint"
+    "prettier/",
+    "stylelint/",
+    "eslint/"
   ],
   "dependencies": {
     "eslint": "^7.20.0",
