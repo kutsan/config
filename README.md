@@ -32,13 +32,13 @@ module.exports = {
 
 ### [prettier](https://github.com/prettier/prettier)
 
-Use as is in your `prettier.config.js`,
+Use as is in your `prettier.config.js`.
 
 ```javascript
 module.exports = require('@kutsan/config/prettier')
 ```
 
-or override rules with spread operator, since [`prettier` doesn't support `extends` mechanic](https://github.com/prettier/prettier/issues/3146) at the present time.
+In order to override rules, use spread operator.
 
 ```javascript
 module.exports = {
@@ -49,10 +49,12 @@ module.exports = {
 
 ### [stylelint](https://github.com/stylelint/stylelint)
 
-Use as is in your `stylelint.config.js`,
+Use with `extends` in your `stylelint.config.js`.
 
 ```javascript
-module.exports = require('@kutsan/config/stylelint')
+module.exports = {
+  extends: '@kutsan/config/stylelint'
+}
 ```
 
 ## License
