@@ -8,6 +8,28 @@ Sharable configurations files for tools that I use.
 npm install @kutsan/config --save-dev
 ```
 
+### [eslint](https://github.com/eslint/eslint)
+
+First, install `@rushstack/eslint-patch` to patch ESLint to support modern module resolver.
+
+```
+npm install @rushstack/eslint-patch --save-dev
+```
+
+Then, use in your `.eslintrc.js`.
+
+```javascript
+require('@rushstack/eslint-patch/modern-module-resolution')
+
+module.exports = {
+  extends: [
+    require.resolve('@kutsan/config/eslint'),
+    require.resolve('@kutsan/config/eslint/ts'),
+    require.resolve('@kutsan/config/eslint/tsx')
+  ]
+}
+```
+
 ### [prettier](https://github.com/prettier/prettier)
 
 Use as is in your `prettier.config.js`,
