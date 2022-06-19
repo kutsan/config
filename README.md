@@ -1,4 +1,8 @@
-# `@kutsan/config` [![npm](https://img.shields.io/npm/v/@kutsan/config.svg?style=flat-square)](https://www.npmjs.com/package/@kutsan/config)
+<img width="100" src="https://github.com/kutsan/config/raw/master/.github/assets/logo.png" alt="Logo" />
+
+# config
+
+[![npm](https://img.shields.io/npm/v/@kutsan/config)](https://www.npmjs.com/package/@kutsan/config)
 
 Sharable configurations files for tools that I use.
 
